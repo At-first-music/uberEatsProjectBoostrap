@@ -1,0 +1,203 @@
+
+.header {
+    margin-left: -8px;
+    margin-top: -10px;
+    height: 72px;
+    width: 98%;
+    position: fixed;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    background: white;
+}
+.sign {
+    padding-top: 5px;
+    position: absolute; right: 143px; top: 13px; bottom: 16px;
+}
+.signbut {
+    width: 78px;
+    height: 40px;
+    background: none;
+    border: 1px solid #E0E0E0;
+}
+.basket {
+    position: absolute; right: 50px; top: 13px; bottom: 16px;
+}
+.logo {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+.search {
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+input {
+    width: 100%;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+}
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+    width: auto;
+    height: 366px;
+    padding-bottom: 30px;
+    transition: background-color 0.3s ease-in;
+}
+a:hover {
+    background-color: #757575;
+}
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1D1D1D
+}
+.price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #626262;
+}
+.time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #1D1D1D
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 100px;
+}
+footer {
+    background-color: #262626;
+    padding-left: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ffffff;
+}
+.logoblack {
+    padding-top: 30px;
+    width: 190.77px;
+    height: 19.69px;
+    padding-bottom: 30px;
+}
+.column1 {
+    width: 95%;
+    padding-top: 30px;
+    border-top: 1px solid #E0E0E0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+}
+.green {
+    color: #49A144;
+}
+.uber16px {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 280px;
+}
+li {
+    width: 280px;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.select {
+    margin-top: 20px;
+    overflow: hidden;
+    background: url(Imadges/language.svg) no-repeat #3B3B3B;
+    width: 227px;
+    height: 40px;
+}
+select {
+    width: 227px;
+    height: 40px; 
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #3B3B3B;
+    -webkit-appearance: none;
+    background: transparent;
+}
+.language {
+    background: #3B3B3B;
+    color: #ffffff;
+}
+.imagesocial {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.appgroup {
+    width: 95%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 30px;
+}
+.AppStore {
+    padding-right: 20px;
+}
+.GPlay {
+    padding-left: 20px;
+}
+.end {
+    padding-top: 30px;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    padding-bottom: 30px;
+}
+.endList {
+    width: 280px;
+}
+.btnUp {
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: none;
+}
